@@ -1,4 +1,8 @@
 <?php
+/*
+ * Контроллер главной страницы
+ *
+ */
 
 // Тестовый экшн контроллера IndexController
 function testAction() {
