@@ -11,9 +11,6 @@
  * @param string $actionName название функции формирующей страницу
  */
 function loadPage($controllerName, $actionName ) {
-    // Обработка значений полученных GET-запросом
-    // $controllerName = isset( $_GET['controller'] ) ? htmlspecialchars( ucfirst( $_GET['controller'] ) ) : 'Index';
-    // $actionName = isset(  $_GET['action'] ) ? htmlspecialchars( $_GET['action'] ) : 'index';
 
     // Подключаем контроллер
     $controllerPath = CONTROLLER_PATH_PREFIX . $controllerName . CONTROLLER_PATH_POSTFIX;
