@@ -9,5 +9,5 @@ $controllerName = isset( $_GET['controller'] ) ? ucfirst( $_GET['controller'] ) 
 // Определяем какой экшн будет использоваться
 $actionName = isset( $_GET['action'] ) ? $_GET['action'] : 'index';
 
-loadPage( $controllerName, $actionName );
+loadPage( $smarty, $controllerName, $actionName );
 
