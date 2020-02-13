@@ -33,3 +33,17 @@ function loadPage( $smarty, $controllerName, $actionName ) {
 function loadTemplate($smarty, $templateName ) {
     $smarty->display( $templateName . TEMPLATE_POSTFIX );
 }
+
+/**
+ * Останавливает выполнение программы и выводит значение переменной $value
+ *
+ * @param variant $value переменная значение которой будет выведено на страницу
+ * @param boolean $run_program определяет будет ли продолжено выполнение программы после вывода $value
+ */
+function d( $value = null, $run_program = false ) {
+    echo '<br>DEBUG..<br><pre>';
+    print_r( $value );
+    echo '</pre>';
+
+    if ( !$run_program ) die('выполнение программы завершено( $run_program == false )');
+}
