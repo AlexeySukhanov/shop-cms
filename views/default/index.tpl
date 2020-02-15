@@ -9,6 +9,25 @@
     <title>{$pageTitle}</title>
 </head>
 <body>
-<h1>{$pageTitle}</h1>
+
+<header>
+    <h>{$pageTitle}</h>
+</header>
+
+<aside>
+    <nav>
+        <ul>
+            <li><a href="#">Пункт меню 1</a></li>
+            <li><a href="#">Пункт меню 2</a></li>
+            <li><a href="#">Пункт меню 3</a></li>
+            <li><a href="#">Пункт меню 4</a></li>
+        </ul>
+    </nav>
+</aside>
+
+<section>Главное содержимое</section>
+
+<footer>Футер</footer>
+
 </body>
 </html>
