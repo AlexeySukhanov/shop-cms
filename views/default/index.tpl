@@ -1,33 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{$templateWebPath}css/main.css">
-    <title>{$pageTitle}</title>
-</head>
-<body>
+{include file="templates-parts/header.tpl"}
 
-<header>
-    <h1>{$pageTitle}</h1>
-</header>
+{include file="templates-parts/sidebar.tpl"}
 
-<aside>
-    <nav>
-        <ul>
-            <li><a href="#">Пункт меню 1</a></li>
-            <li><a href="#">Пункт меню 2</a></li>
-            <li><a href="#">Пункт меню 3</a></li>
-            <li><a href="#">Пункт меню 4</a></li>
-        </ul>
-    </nav>
-</aside>
+<section id="content">Главное содержимое</section>
 
-<section>Главное содержимое</section>
+{include file="templates-parts/footer.tpl"}
 
-<footer>Футер</footer>
-
-</body>
-</html>
