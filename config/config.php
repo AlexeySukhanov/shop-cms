@@ -32,7 +32,7 @@ $smarty->setCacheDir('../tmp/smarty/cache/');
 $smarty->setConfigDir('__DIR__');
 
 // Указываем Smarty  где будут находиться вспомогательные переменные
-$smarty->assign('templateWebPath', 'TEMPLATE_WEB_PATH');
+$smarty->assign('templateWebPath', TEMPLATE_WEB_PATH);
 //<
 
 
