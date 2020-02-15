@@ -19,7 +19,7 @@ define('TEMPLATE_PREFIX', "../views/{$template}/");
 define('TEMPLATE_POSTFIX', '.tpl');
 
 // Путь к файлам шаблонов в веб-пространстве
-define('TEMPLATE_WEB_PATH', "/templates/{$template}/");
+define('TEMPLATE_WEB_PATH', "/assets/{$template}/");
 
 //> Инициализация шаблонизатора Smarty и его настройка
 require('../library/Smarty/libs/Smarty.class.php');
