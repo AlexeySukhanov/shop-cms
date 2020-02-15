@@ -1,3 +1,35 @@
 * {
     color: darkolivegreen;
 }
+
+.hide {
+    display: none;
+}
+
+#header {
+    height: 70px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    /*width: 1024px;*/
+}
+
+#sidebar {
+    width: 200px;
+}
+
+#content {
+    width: 734px;
+    margin-left: 90px;
+}
+
+.nav-header {
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+}
