@@ -11,7 +11,7 @@
 <body>
 
 <header>
-    <h>{$pageTitle}</h>
+    <h1>{$pageTitle}</h1>
 </header>
 
 <aside>
